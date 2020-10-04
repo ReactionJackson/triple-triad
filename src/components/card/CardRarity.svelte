@@ -14,7 +14,7 @@
         style="transform: { getRotateStyle(rotation)  }">
         <div
           class="star"
-          style="transform: translate3d(-50%, -50%, 0) { getRotateStyle(-rotation) } scale3d(1, -1, 1)">
+          style="transform: translate3d(-50%, -50%, 0) { getRotateStyle(-rotation) } scaleY(-1)">
         </div>
       </div>
     {/if}
